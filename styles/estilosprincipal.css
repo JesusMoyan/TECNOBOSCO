@@ -1,0 +1,457 @@
+html {
+  background: linear-gradient(270deg, white, rgb(0, 162, 232)) fixed no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  font-family: 'Alata', sans-serif;
+  background-size: 120%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  width: 130px;
+  padding: 15px;
+  padding-left: 40px;
+  float: left;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+header {
+  background: rgb(20, 20, 20);
+  width: 100%;
+  align-items: center;
+
+}
+
+nav {
+  position: relative;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden;
+}
+
+nav ul li {
+  font-size: 20px;
+}
+
+nav ul li h2 {
+  float: right;
+  display: block;
+  padding: 27px;
+  color: black;
+  text-decoration: none;
+  background-color: rgb(229, 241, 246);
+}
+
+nav ul li h2 {
+  color: white;
+  background: transparent;
+}
+
+nav ul li h1 {
+  display: block;
+  padding: 7px;
+  color: black;
+  float: left;
+}
+
+nav ul li a {
+  float: right;
+  display: block;
+  padding: 45px;
+  color: black;
+  text-decoration: none;
+  background-color: rgb(229, 241, 246);
+  width: 120px;
+  height: 97px;
+}
+
+nav ul li a {
+  color: white;
+  background-color: rgb(0, 162, 232);
+}
+
+nav ul li a:hover {
+  color: white;
+  background-color: rgb(0, 147, 232);
+}
+
+.a1 {
+  color: black;
+  background: rgb(238, 113, 85);
+  float: right;
+  padding: 30px;
+}
+
+
+
+
+
+html {
+  background: linear-gradient(rgb(0, 162, 232), white) fixed no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  font-family: 'Alata', sans-serif;
+  background-size: 120%;
+}
+
+h2 {
+  font-size: 30px;
+  align-self: center;
+}
+
+h1 {
+  float: left;
+  font-size: 40px;
+}
+
+h4 {
+  padding-top: 10px;
+  font-size: 20px;
+  align-self: center;
+}
+
+#ono {
+  padding-top: 20px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#ms {
+  float: left;
+  width: 75px;
+  padding: 10px;
+  padding-left: 30px;
+}
+
+#mt {
+  width: 150px;
+  padding: 35px;
+}
+
+.ms {
+  width: 40px;
+  padding: 25px;
+  padding-top: 10px;
+}
+
+#lum {
+  margin-top: 30px;
+  width: 1400px;
+  box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.2);
+}
+
+.imgr {
+  width: 500px;
+  height: 250px;
+  align-self: center;
+  padding: 40px;
+  border-radius: 91px 91px 91px 91px;
+  -moz-border-radius: 91px 91px 91px 91px;
+  -webkit-border-radius: 91px 91px 91px 91px;
+  border: 0px groove #0affff;
+}
+
+.imgr1 {
+  width: 600px;
+  height: 150px;
+  align-self: center;
+  padding: 20px;
+  border-radius: 91px 91px 91px 91px;
+  -moz-border-radius: 91px 91px 91px 91px;
+  -webkit-border-radius: 91px 91px 91px 91px;
+  border: 0px groove #0affff;
+}
+
+.imgr2 {
+  width: 500px;
+  height: 500px;
+  align-self: center;
+  padding: 40px;
+}
+
+header {
+  background: black;
+  width: 100%;
+  position: fixed;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden;
+}
+
+nav ul li {
+  font-size: 20px;
+}
+
+nav ul li a {
+  float: right;
+  display: block;
+  padding: 25px;
+  color: black;
+  text-decoration: none;
+  background-color: rgb(229, 241, 246);
+}
+
+nav ul li a {
+  color: black;
+  background-color: rgb(125, 201, 231);
+}
+
+nav ul li h1 {
+  display: block;
+  padding: 7px;
+  color: white;
+}
+
+#a1 {
+  color: white;
+  background-color: black;
+}
+
+#d1 {
+  background-image: url("../images/IlliterateTenderAndeancockoftherock-size_restricted.gif");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+  text-align: left;
+  padding: 10%;
+  font-size: 100em;
+}
+
+#d3 {
+  display: grid;
+  grid-template-columns: 1500px;
+  justify-content: center;
+  color: rgb(229, 241, 246);
+  background-color: black;
+  padding: 2%;
+}
+
+#d5 {
+  color: black;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  float: left;
+  width: 1500px;
+}
+
+#d5_5 {
+  display: flex;
+  flex-direction: row;
+  float: left;
+  width: 1500px;
+  height: 500px;
+}
+
+
+#d6 {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  width: 1500px;
+  height: 500px;
+  margin-bottom: 30px;
+}
+
+#d7 {
+  display: grid;
+  grid-template-columns: 230px 250px 300px 350px 300px 130px;
+  justify-content: center;
+  background-color: rgb(20, 20, 20);
+  color: rgb(168, 168, 168);
+  align-items: center;
+
+}
+
+#d8 {
+  display: grid;
+  grid-column: 1/2;
+  align-items: center;
+  padding: 5px;
+}
+
+#d9 {
+  grid-column: 2/3;
+}
+
+#d10 {
+  grid-column: 3/4;
+}
+
+#d11 {
+  grid-column: 4/5;
+}
+
+#d12 {
+  grid-column: 5/6;
+  display: grid;
+  padding-top: 20px;
+  align-content: center;
+}
+
+#d13 {
+  display: flex;
+  align-items: center;
+}
+
+.eb {
+  font-size: 17px;
+  width: 90px;
+  height: 30px;
+  margin-top: 10px;
+  background-color: rgb(229, 241, 246);
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  color: black;
+  border-radius: 4px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+#myChart {
+
+  max-width: 55%;
+  margin: 10px;
+  margin-left: 25%;
+
+}
+
+#myChart1 {
+
+  max-width: 50%;
+  margin: 10px;
+  margin-left: 25%;
+
+}
+
+#myChart2 {
+
+  max-width: 50%;
+  margin: 10px;
+  margin-left: 25%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.tarjeta1 {
+  display: grid;
+  grid-template-columns: 5% 40% 40% 5%;
+  grid-gap: 3%;
+}
+
+.tarjeta1_1 {
+  grid-column: 2/3;
+  text-align: left;
+}
+
+.tarjeta1_2 {
+  grid: 3/4;
+  text-align: right;
+}
+
+.tarjeta2 {
+  display: grid;
+  grid-template-columns: 5% 40% 40% 5%;
+  grid-gap: 3%;
+  padding: 5%;
+}
+
+.tarjeta2_1 {
+  grid-column: 2/3;
+  text-align: left;
+}
+
+.tarjeta2_2 {
+  grid: 3/4;
+  text-align: right;
+}
+
+#chu {
+  float: center;
+  width: 100%;
+}
+
+p {
+  font-size: 1.3em;
+}
+
+
+#datos {
+  font-size: 80px;
+}
+
+#chu2 {
+  float: center;
+  width: 100%;
+  height: 47%;
+}
+
+#chu3 {
+  float: center;
+  width: 60%;
+  height: 40%;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+#chu4 {
+  float: center;
+  width: 100%;
+  height: 47%;
+}
+
+#mc {
+  background: black;
+}
+
+.bot1 {
+  color: black;
+  background: rgb(0, 162, 232);
+  border-style: none;
+  width: 200px;
+  padding: 1%;
+  border-style: solid;
+  border-radius: 50px;
+  border-color: rgb(0, 162, 232);
+  outline: transparent;
+  appearance: none;
+}
+
+.bot1:hover { 
+  color: white;
+  background: rgb(1, 72, 102);
+  border-style: solid;
+  border-radius: 50px;
+  border-color: rgb(1, 72, 102);
+  transition: ease-in 0.2s;
+}
+
+.bot1:active{
+  direction: none;
+}
+

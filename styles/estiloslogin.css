@@ -1,0 +1,80 @@
+html {
+    background: linear-gradient(rgb(0, 162, 232), white) fixed no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    background-size: 100%;
+}
+
+a {
+    color: rgb(0, 162, 232);
+    padding: 30px;
+}
+
+h2 {
+    color: rgb(229, 241, 246);
+    font-size: 50px;
+    align-self: center;
+}
+
+img {
+    width: 300px;
+    padding: 40px;
+}
+
+#b1 {
+    color: white;
+    background: rgb(0, 162, 232);
+    border-style: none;
+    height: 40px;
+}
+
+#b1:hover {
+    color: black;
+    background: rgb(125, 201, 231);
+}
+
+input {
+    font-family: 'Alata', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: 230px;
+    height: 35px;
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 0.1px;
+}
+
+#d1 {
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 500px;
+    justify-content: center;
+    box-shadow: rgb(31, 31, 31);
+    align-items: center;
+}
+
+#d2 {
+    color: black;
+    background: rgb(20, 20, 20);
+    border-style: none;
+    border-radius: 3px;
+    grid-column: 1/2;
+    box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.2);
+}
+
+#d3 {
+    display: grid;
+    grid-template-columns: 300px;
+    justify-content: center;
+}
+
+#d4 {
+    float: center;
+    padding: 30px;
+    border-width: 0.1px;
+    border-style: solid;
+    border-right: transparent;
+    border-left: transparent;
+    border-color: white;
+}
