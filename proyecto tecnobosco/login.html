@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>log</title>
+    <link rel="stylesheet" href="styles/estiloslogin.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+</head>
+
+<body onload="iniciar()">
+    
+    <div class="formulario">
+    </div>
+    <div id="d1">
+        <div id="d2">
+            <h2>Iniciar Sesión</h2>
+            <div id="d3">
+                <div id="d4">
+                    <form >
+                        <input type="text" placeholder="id" id="userlogin" >
+                        <br><br>
+                        <input type="password" placeholder="Contraseña" id="passlogin" >
+                        <br><br>
+                        <input id="b1" type="button" onclick="login()"  value="Continuar">
+                    </form>
+                </div>
+                <a href="registro.html">¿Aun no tienes una cuenta?</a>
+            </div>
+        </div>
+    </div>
+    <script src="logica/logica.js"></script>
+</body>
+
+</html>
